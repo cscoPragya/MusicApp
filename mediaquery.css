@@ -1,0 +1,57 @@
+@media only screen and (min-width:360px) and (max-width:640px) {
+    #left{
+position: relative;
+left: -110%;
+z-index: 1;
+    }
+    #right{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        position: absolute;
+       
+    }
+    #spotifyfolders{
+      
+        display: flex;
+        flex-direction: column;
+    }
+    #spotifyfolders .card{
+        width: 92%;
+        box-sizing: border-box;
+    }
+    #playbar{
+        width: 92%;
+    }
+
+    nav section:nth-child(2) button{
+        /* background-color: red; */
+        width: 13vh;
+        height: 5vh;
+    }
+    #hamburger{
+        display: block;
+        cursor: pointer;
+    }
+    #prevplaynext button img{
+     
+        width: 8vw;
+    }
+    #leftfooter ul{
+       flex-direction: row;
+    }
+    /* nav{
+        position: relative;
+        z-index: 2;
+    } */
+     #prevplaynext{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+     }
+     #volume{
+        right: 0;
+     }
+}

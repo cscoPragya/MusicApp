@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MUSICana | India's Number one music  web application.</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaquery.css">
+  </head>
+  <body>
+    <div id="container">
+      <div id="left" class="formedia">
+       
+        <section id="leftheader">
+          <section id="logosec">
+          <img src="https://images.vexels.com/media/users/3/128042/isolated/preview/0e976e538732de5c2ca27d7957145596-flat-headphone-icon-with-thick-stroke.png" width="18%"/>
+          <span>MUSICana</span>
+        </section>
+          <ul>
+            <li>
+              <img src="svgs/home.svg" alt="homeicon" width="20px" /><a href="#"
+                >Home</a
+              >
+            </li>
+            <li>
+              <img src="svgs/search.svg" alt="searchicon" /><a href="#"
+                >Search</a
+              >
+            </li>
+          </ul>
+        </section>
+        <section id="library">
+          <h2>
+            <img width="20px" src="svgs/library.svg" />
+            <p>Your Library</p>
+          </h2>
+          <!-- library portion -->
+          <div id="playlist"></div>
+
+          <section id="leftfooter">
+            <ul>
+              <li><a href="#">Legal</a></li>
+              <li><a href="#">Safety & Privacy Center</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Cookies</a></li>
+              <li><a href="#">About Ads</a></li>
+              <li><a href="#">Accessibility</a></li>
+              <li><a href="#">Cookies</a></li>
+            </ul>
+          </section>
+        </section>
+      </div>
+
+<!-- Rigth Portion -->
+
+    <div id="right">
+        <nav>
+            <section>
+              <img src="svgs/cross.svg" class="invert" id="cross">
+              <img src="svgs/menu.png" class="invert" id="hamburger">
+              <img class="invert" src="svgs/left.svg"><img class="invert" src="svgs/right.svg"></section>
+            <section>
+                <button>Sign up</button><button>Log in</button>
+            </section>
+        </nav>
+        <div id="spotifyfolders"></div>
+        <section id="playbar">
+            <section id="prevplaynext">
+                <section id="songinfo">Song name will display here</section>
+                <section id="controls">
+                <button id="leftbutton"> <img class="invert" src="svgs/left.svg">  </button><button id="playbutton"><img id="playimage" class ="invert" src="svgs/play.svg"></button><button id="rightbutton"><img class ="invert"  src="svgs/right.svg"></button></section>
+                <span class="volinputspan"><img src="svgs/volume.svg" class="invert" id="volimage">
+                  <input type="range" id="volume"></span>
+               
+                <section id="songtiminginfo">00:00/00:00</section>
+            </section>
+            <section id="seekbar">
+              <div id="circle"></div>
+            </section>
+        </section>
+
+    </div>
+    <script src="script.js"></script>
+  
+  </body>
+</html>
